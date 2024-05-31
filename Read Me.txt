@@ -11,6 +11,7 @@ $RestorePointName = "AutoRestorePoint"
 Checkpoint-Computer -Description $RestorePointName -RestorePointType "MODIFY_SETTINGS"
 Save the file with a .ps1 extension, such as CreateRestorePoint.ps1.
 
+
 Step 2: Access the Startup Folder  
 
 Press Win + R to open the Run dialog, type shell:startup, and hit Enter. This will open the Startup folder where you'll place the PowerShell script.
